@@ -11,6 +11,8 @@ LegalIntake AI replaces static intake forms with a secure, intelligent chat agen
 - **⚖️ Case Management**: Dashboard for attorneys to review new leads and case summaries.
 - **📄 Instant Reports**: Automatically generates PDF case briefs from chat history.
 - **🔒 Secure & Private**: Built with privacy-first principles.
+<img width="1322" height="640" alt="image" src="https://github.com/user-attachments/assets/ea1b843f-f5c6-43e9-b643-f12779beee64" />
+<img width="1366" height="1940" alt="image" src="https://github.com/user-attachments/assets/de7a1d6a-dfbf-4908-98ea-b88978b94922" />
 
 ## Tech Stack
 
