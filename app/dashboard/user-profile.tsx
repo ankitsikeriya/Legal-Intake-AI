@@ -1,15 +1,11 @@
 'use client';
 
 import { authClient } from "@/lib/auth-client";
-import { Avatar, AvatarFallback, AvatarImage } from "@/app/components/ui/avatar";
+// import { Avatar, AvatarFallback, AvatarImage } from "@/app/components/ui/avatar";
+// import { Button } from "@/app/components/ui/button"; // Button IS used
 import { Button } from "@/app/components/ui/button";
 import { Input } from "@/app/components/ui/input";
-import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuTrigger
-} from "@/app/components/ui/dropdown-menu";
+// Dropdown imports removed
 import { Loader2, Pencil, User, X } from "lucide-react";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
