@@ -8,7 +8,18 @@ export const user = pgTable("user", {
   emailVerified: boolean("emailVerified").notNull(),
   image: text("image"),
   createdAt: timestamp("createdAt").notNull(),
-  updatedAt: timestamp("updatedAt").notNull()
+  updatedAt: timestamp("updatedAt").notNull(),
+
+  // Lawyer Verification Fields
+  barCouncilState: text("bar_council_state"),
+  enrollmentNumber: text("enrollment_number"),
+  yearOfEnrollment: text("year_of_enrollment"),
+  practiceArea: text("practice_area"),
+  firmName: text("firm_name"),
+  phoneNumber: text("phone_number"),
+  verificationStatus: text("verification_status").default("pending"),
+  verifiedAt: timestamp("verified_at"),
+  verifiedBy: text("verified_by"),
 });
 
 export const session = pgTable("session", {

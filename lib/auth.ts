@@ -14,4 +14,45 @@ export const auth = betterAuth({
     emailAndPassword: {
         enabled: true
     },
+    user: {
+        additionalFields: {
+            barCouncilState: {
+                type: "string",
+                required: false,
+            },
+            enrollmentNumber: {
+                type: "string",
+                required: false,
+            },
+            yearOfEnrollment: {
+                type: "string",
+                required: false,
+            },
+            practiceArea: {
+                type: "string",
+                required: false,
+            },
+            firmName: {
+                type: "string",
+                required: false,
+            },
+            phoneNumber: {
+                type: "string",
+                required: false,
+            },
+            verificationStatus: {
+                type: "string",
+                required: false,
+                defaultValue: "pending",
+            },
+        }
+    },
+    session: {
+        additionalFields: {
+            verificationStatus: {
+                type: "string",
+                required: false,
+            }
+        }
+    }
 });
